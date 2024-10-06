@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AR-Based Measurement Tool (Under Development)
 
-## Available Scripts
+This project is an Augmented Reality (AR)-based measurement tool that allows users to measure the distance between two points in real-time using their phone's camera. The frontend is built with React, while the backend will be implemented using Django. The project is still under development, with ongoing enhancements in both functionality and design.
 
-In the project directory, you can run:
+## Features (In Progress)
 
-### `npm start`
+- **Live Camera Feed**: Users can access their phone's camera directly within the web app to view the live video feed.
+- **Point Selection**: After starting the measurement, users can select two points on the camera feed to calculate the distance between them.
+- **Pixel-Based Distance Calculation**: The distance between two selected points is currently calculated in pixels.
+- **Responsive Design**: The website is designed to be mobile-friendly, allowing easy access from smartphones.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Planned Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Real-World Distance Measurement**: Future updates will convert pixel distances into real-world measurements using calibration techniques.
+- **Backend Integration**: The Django backend will support more advanced features like user authentication, data storage, and machine learning-based object recognition.
+- **AR Enhancements**: Planned integration with AR libraries like AR.js for a better AR experience.
+- **Data Science Integration**: The project will include data science techniques for enhanced measurement accuracy and object detection.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React
+  - React Router for navigation between pages
+  - Webcam.js for accessing the camera feed
+- **Backend**: Django (in progress)
+- **Styling**: CSS for a dark, minimal UI
 
-### `npm run build`
+## Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ar-measurement-tool.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
+   ```bash
+   cd ar-measurement-tool
+   ```
 
-### `npm run eject`
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the React development server:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Access the project in your browser at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribution
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is still under active development. Contributions are welcome! If you want to contribute or have suggestions, feel free to create a pull request or open an issue.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Status
 
-### Code Splitting
+**Under Development**: This project is not yet ready for production. Several features are still being implemented, and bugs may be present.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any inquiries or suggestions, feel free to contact me at `joeljoshi2002l@example.com`.
