@@ -1,0 +1,33 @@
+/* Styling for the Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem;
+    background-color: #333;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust the size of the logo */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links li {
+    padding: 0.5rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #ddd;
+  }
+  
